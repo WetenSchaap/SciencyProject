@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "sciencyproject"
+version = "0.1.0"
+description = ""
+authors = ["Piet Swinkels <org@swnkls.nl>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipython = "^8.6.0"
+ipykernel = "^6.17.0"
+matplotlib = "^3.6.2"
+scipy = "^1.9.3"
+numpy = "^1.23.4"
+Pillow = "^9.3.0"
+pandas = "^1.5.1"
+networkx = "^2.8.8"
+scikit-image = "^0.19.3"
+numba = "^0.56.4"
+pjmsplot = {git = "https://github.com/WetenSchaap/pjmsplot.git", develop = true}
+tol-colors = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
